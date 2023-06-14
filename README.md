@@ -18,7 +18,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktok Mobile](./screenshots/desktop.png.jpg)
+![Desktok Mobile](./screenshots/desktop.png)
 
 
 
