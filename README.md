@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-+ Live Site URL: [Add solution URL here](https://unaygney.github.io/ageCalculatorApp/)
-+ Solution URL: [Add live site URL here](https://www.frontendmentor.io/solutions/age-calculator-app-tzfiaTM0d1)
++ Live Site URL: [Solution URL](https://unaygney.github.io/ageCalculatorApp/)
++ Solution URL:  [Live site URL](https://www.frontendmentor.io/solutions/age-calculator-app-tzfiaTM0d1)
 
 
 
