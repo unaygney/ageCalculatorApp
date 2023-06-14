@@ -18,16 +18,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop.png.jpg)
+![Desktok Mobile](./screenshots/desktop.png.jpg)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
++ Live Site URL: [Add solution URL here](https://unaygney.github.io/ageCalculatorApp/)
++ Solution URL: [Add live site URL here](https://www.frontendmentor.io/solutions/age-calculator-app-tzfiaTM0d1)
 
-## My process
 
 
 
