@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+
+/* Font size 32px */
+:root {
+    --color-primary: hsl(259, 100%, 65%);
+    --color-secondary: hsl(0, 100%, 67%);
+    --color-third: hsl(0, 0%, 8%);
+    --color-fourth: hsl(0, 1%, 44%);
+}
+
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 86%);
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fff;
+    border-radius: 14px 14px 72px 14px;
+    padding: 2rem;
+}
+
+form {}
+
+ul {
+    display: flex;
+    gap: .5rem;
+}
+
+ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 40px;
+    width: 90px;
+    border-radius: 6px;
+    padding: 1rem;
+    border: 1px solid var(--color-fourth);
+}
+
+
+
+input::placeholder {
+    font-weight: 800;
+}
+
+ul li:nth-child(3) {
+    margin-right: 6rem;
+}
+
+label {
+    color: var(--color-fourth);
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.container .line-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+    background-color: hsl(0, 0%, 86%);
+    margin-bottom: 2rem;
+}
+
+.line-container .line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+
+
+}
+
+
+.line .btn {
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    border: 0;
+    padding: .6rem;
+    cursor: pointer;
+
+}
+
+.btn:active{
+ transform: scale(1.1);
+}
+
+.container .age-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.age-content .line-bar {
+    color: var(--color-primary);
+    margin-right: 5px;
+}
+
+.error-message{
+    color: var(--color-secondary);
+    font-size: 10px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 5px;
+    visibility: hidden;
+}
+
+/* Error Class */
+
+.error{
+    color: var(--color-secondary);
+}
+
+.error-line{
+    border: 1px solid var(--color-secondary);
+}
+
+
+/* breakpoints mobile */
+
+
+
+@media (max-width: 478px) {
+ .container {
+    width: 90%;
+    height: 80vh;
+    margin-top: 2rem;
+ 
+ }
+
+ .container .line-container{
+ margin: 3rem 0;
+    justify-content: center;
+ }
+
+ .line-container .btn{
+
+ }
+
+
+
+
+}

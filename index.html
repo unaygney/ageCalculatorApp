@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+
+            <form method="post">
+                <ul>
+                    <li>
+                        <label for="day" class="" id="day-label">Day</label>
+                        <input type="text" name="day" id="day" class="" placeholder="DD">
+                        <span  id="day-error" class="error-message">Must be a valid day</span>
+                    </li>
+
+                    <li>
+                        <label for="month" id="month-label">Month</label>
+                        <input type="text" name="month" id="month" placeholder="MM">
+                        <span id="month-error" class="error-message">Must be a valid month</span>
+                    </li>
+                    <li>
+                        <label for="year" id="year-label">Year</label>
+                        <input type="text" name="year" id="year" placeholder="YYYY">
+                        <span id="year-error" class="error-message">Must be a valid year</span>
+                    </li>
+                </ul>
+
+
+
+            </form>
+
+            <section class="line-container">
+                <span class="line">
+                    <button class="btn" onclick="calculate()"> <img src="./images/icon-arrow.svg"></button>
+                </span>
+            </section>
+
+
+            <section class="age-content">
+
+                <h1> <span class="line-bar" id="YY">--</span>years</h1>
+                <h1> <span class="line-bar" id="MM">--</span>months</h1>
+                <h1> <span class="line-bar" id="DD">--</span>days</h1>
+
+            </section>
+
+
+
+
+        </div>
+
+
+    </main>
+
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
