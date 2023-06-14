@@ -9,48 +9,9 @@ function calculate() {
     let monthOtp = document.getElementById('MM');
     let yearOtp = document.getElementById('YY');
 
-//     // Validation
-
-//      // Day Validation
-//   if (isNaN(dayInp) || dayInp < 1 || dayInp > 31) {
-//     document.getElementById('day-label').classList.add('error');
-//     document.getElementById('day').classList.add('error-line');
-//     document.getElementById('day-error').style.display = 'inline-block';
-//     return;
-//   } else {
-//     document.getElementById('day-label').classList.remove('error');
-//     document.getElementById('day').classList.remove('error-line');
-//     document.getElementById('day-error').style.display = 'none';
-//   }
-
-//   // Month validation
-//   if (isNaN(monthInp) || monthInp < 1 || monthInp > 12) {
-//     document.getElementById('month-label').classList.add('error');
-//     document.getElementById('month').classList.add('error-line');
-//     document.getElementById('month-error').style.display = 'inline-block';
-//     return;
-//   } else {
-//     document.getElementById('month-label').classList.remove('error');
-//     document.getElementById('month').classList.remove('error-line');
-//     document.getElementById('month-error').style.display = 'none';
-//   }
-
-//   // Year validation
-//   if (isNaN(yearInp)) {
-//     document.getElementById('year-label').classList.add('error');
-//     document.getElementById('year').classList.add('error-line');
-//     document.getElementById('year-error').style.display = 'inline-block';
-//     return;
-//   } else {
-//     document.getElementById('year-label').classList.remove('error');
-//     document.getElementById('year').classList.remove('error-line');
-//     document.getElementById('year-error').style.display = 'none';
-//   }
-
 
   // Validation
-  let errors = []; // Hataları tutmak için dizi
-
+  let errors = []; //
   // Day Validation
   if (isNaN(dayInp) || dayInp < 1 || dayInp > 31) {
     errors.push('day');
@@ -85,7 +46,7 @@ function calculate() {
     document.getElementById('year').classList.remove('error-line');
     document.getElementById('year-error').style.display = 'none';
   } else {
-    return; // Hatalı girdiler olduğunda işlemi durdur
+    return; 
   }
 
 
